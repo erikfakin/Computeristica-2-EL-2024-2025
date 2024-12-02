@@ -40,10 +40,28 @@ print("a - b =", c)
 c = a * b
 print("a * b = c")
 
-#DIVISIONE
+# DIVISIONE
 
 c = a / b
 print("a / b = ",c)
+
+# ELEVAMENTO A POTENZA
+
+c = 3 ** 2 # 3 al quadrato -> c = 9
+print("3 al quadrato =", c)
+
+c = 2 ** 4 # 2 alla quarta -> c = 16
+print("2 alla quarta =", c)
+
+# PARTE INTERA DELLA DIVISIONE
+c = 7 // 2 # il 2 sta nel 7 3 volte, cioe c = 3
+print("Parte intera della divisione tra 7 e 2 =", c)
+
+# RESTO DELLA DIVISIONE
+c = 7 % 2 # 7 diviso 2 = 3 col resto di 1 quindi c = 1
+print("Resto della divisone tra 7 e 2 =", c)
+
+
 
 
 
