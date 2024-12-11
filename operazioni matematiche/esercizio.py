@@ -8,4 +8,8 @@ b = int(input("Inserisci il secondo numero: "))
 
 print("a + b =", a + b)
 
-print("Resto della somma con la divisione con 2: ",(a + b) % 2)
+if (a+b)%2 == 0:
+    print("La somma e' pari")
+else:
+    print("La somma e' dispari")
+
